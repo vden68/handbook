@@ -1,0 +1,5 @@
+p_price = input()
+p_weight = input()
+p_money = input()
+p_sum = int(p_money) - int(p_price) * int(p_weight)
+print(str(p_sum))
